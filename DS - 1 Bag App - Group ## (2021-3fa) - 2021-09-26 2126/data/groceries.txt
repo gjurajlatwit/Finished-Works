@@ -1,0 +1,28 @@
+napkins	large	light	soft	flexible	nonbreakable	nonperishable
+eggs	medium	medium	firm	rigid	breakable	perishable
+bread	medium	light	soft	flexible	nonbreakable	perishable
+beans	small	heavy	hard	rigid	nonbreakable	nonperishable
+beans	small	heavy	hard	rigid	nonbreakable	nonperishable
+beans	small	heavy	hard	rigid	nonbreakable	nonperishable
+light   bulbs	medium	light	firm	rigid	breakable	nonperishable
+bacon	medium	medium	firm	flexible	nonbreakable	perishable
+pet food	large	heavy	firm	flexible	nonbreakable	nonperishable
+tissues	medium	light	soft	rigid	nonbreakable	nonperishable
+sliced cheese	small	light	firm	rigid	nonbreakable	perishable
+tissues	medium	light	hard	rigid	nonbreakable	nonperishable
+napkins	large	light	soft	flexible	nonbreakable	nonperishable
+hotdogs	small	light	firm	flexible	nonbreakable	perishable
+hotdog buns	medium	light	soft	flexible	nonbreakable	perishable
+hotdog buns	medium	light	soft	flexible	nonbreakable	perishable
+pickle relish	small	medium	firm	rigid	nonbreakable	nonperishable
+tortilla chips	large	light	firm	flexible	breakable	nonperishable
+salsa	medium	medium	hard	rigid	nonbreakable	nonperishable
+potato chips	large	light	firm	flexible	breakable	nonperishable
+ketchup	medium	medium	firm	rigid	nonbreakable	nonperishable
+mustard	medium	medium	firm	rigid	nonbreakable	nonperishable
+soda	large	heavy	firm	rigid	nonbreakable	nonperishable
+soda	large	heavy	firm	rigid	nonbreakable	nonperishable
+juice	large	heavy	firm	rigid	nonbreakable	nonperishable
+sponges	small	light	soft	flexible	nonbreakable	nonperishable
+hotdog buns	medium	light	soft	flexible	nonbreakable	perishable
+beer	large	heavy	hard	rigid	nonbreakable	nonperishable

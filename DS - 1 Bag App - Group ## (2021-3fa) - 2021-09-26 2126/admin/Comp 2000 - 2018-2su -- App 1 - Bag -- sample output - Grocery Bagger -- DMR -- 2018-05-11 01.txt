@@ -1,0 +1,257 @@
+Running with Linked Bag implementation:
+
+Bagging items:
+
+Put napkins in bag 1
+Put eggs in bag 2
+Put bread in bag 2
+Put beans in bag 3
+Put beans in bag 3
+Put beans in bag 3
+Put light bulbs in bag 1
+Put bacon in bag 2
+Put pet food in bag 4
+Put tissues in bag 1
+Put sliced cheese in bag 2
+Put tissues in bag 1
+Put napkins in bag 5
+Put hotdogs in bag 2
+Put hotdog buns in bag 2
+Bag 2 is full.
+Put hotdog buns in bag 6
+Put pickle relish in bag 1
+Bag 1 is full.
+Put tortilla chips in bag 5
+Put salsa in bag 4
+Put potato chips in bag 5
+Put ketchup in bag 4
+Put mustard in bag 4
+Put soda in bag 7
+Put soda in bag 7
+Put juice in bag 7
+Put sponges in bag 5
+Bag 5 is full.
+Put hotdog buns in bag 6
+Put beer in bag 8
+
+----------
+
+Loaded 8 bags:
+
+Bag 1 contains 5 items (breakables, full):
+(1) light bulbs
+(1) napkins
+(1) pickle relish
+(2) tissues
+
+Bag 2 contains 6 items (breakables, perishables, full):
+(1) bacon
+(1) bread
+(1) eggs
+(1) hotdog buns
+(1) hotdogs
+(1) sliced cheese
+
+Bag 3 contains 3 items (heavy items):
+(3) beans
+
+Bag 4 contains 4 items (heavy items):
+(1) ketchup
+(1) mustard
+(1) pet food
+(1) salsa
+
+Bag 5 contains 4 items (breakables, full):
+(1) napkins
+(1) potato chips
+(1) sponges
+(1) tortilla chips
+
+Bag 6 contains 2 items (breakables, perishables):
+(2) hotdog buns
+
+Bag 7 contains 3 items (heavy items):
+(1) juice
+(2) soda
+
+Bag 8 contains 1 item (heavy items):
+(1) beer
+
+----------
+
+End of run with Linked Bag implementation.
+
+-----
+
+Running with Fixed Array Bag implementation:
+
+Bagging items:
+
+Put napkins in bag 1
+Put eggs in bag 2
+Put bread in bag 2
+Put beans in bag 3
+Put beans in bag 3
+Put beans in bag 3
+Put light bulbs in bag 1
+Put bacon in bag 2
+Put pet food in bag 4
+Put tissues in bag 1
+Put sliced cheese in bag 2
+Put tissues in bag 1
+Put napkins in bag 5
+Put hotdogs in bag 2
+Put hotdog buns in bag 2
+Bag 2 is full.
+Put hotdog buns in bag 6
+Put pickle relish in bag 1
+Bag 1 is full.
+Put tortilla chips in bag 5
+Put salsa in bag 4
+Put potato chips in bag 5
+Put ketchup in bag 4
+Put mustard in bag 4
+Put soda in bag 7
+Put soda in bag 7
+Put juice in bag 7
+Put sponges in bag 5
+Bag 5 is full.
+Put hotdog buns in bag 6
+Put beer in bag 8
+
+----------
+
+Loaded 8 bags:
+
+Bag 1 contains 5 items (breakables, full):
+(1) light bulbs
+(1) napkins
+(1) pickle relish
+(2) tissues
+
+Bag 2 contains 6 items (breakables, perishables, full):
+(1) bacon
+(1) bread
+(1) eggs
+(1) hotdog buns
+(1) hotdogs
+(1) sliced cheese
+
+Bag 3 contains 3 items (heavy items):
+(3) beans
+
+Bag 4 contains 4 items (heavy items):
+(1) ketchup
+(1) mustard
+(1) pet food
+(1) salsa
+
+Bag 5 contains 4 items (breakables, full):
+(1) napkins
+(1) potato chips
+(1) sponges
+(1) tortilla chips
+
+Bag 6 contains 2 items (breakables, perishables):
+(2) hotdog buns
+
+Bag 7 contains 3 items (heavy items):
+(1) juice
+(2) soda
+
+Bag 8 contains 1 item (heavy items):
+(1) beer
+
+----------
+
+End of run with Fixed Array Bag implementation.
+
+-----
+
+Running with Resizable Array Bag implementation:
+
+Bagging items:
+
+Put napkins in bag 1
+Put eggs in bag 2
+Put bread in bag 2
+Put beans in bag 3
+Put beans in bag 3
+Put beans in bag 3
+Put light bulbs in bag 1
+Put bacon in bag 2
+Put pet food in bag 4
+Put tissues in bag 1
+Put sliced cheese in bag 2
+Put tissues in bag 1
+Put napkins in bag 5
+Put hotdogs in bag 2
+Put hotdog buns in bag 2
+Bag 2 is full.
+Put hotdog buns in bag 6
+Put pickle relish in bag 1
+Bag 1 is full.
+Put tortilla chips in bag 5
+Put salsa in bag 4
+Put potato chips in bag 5
+Put ketchup in bag 4
+Put mustard in bag 4
+Put soda in bag 7
+Put soda in bag 7
+Put juice in bag 7
+Put sponges in bag 5
+Bag 5 is full.
+Put hotdog buns in bag 6
+Put beer in bag 8
+
+----------
+
+Loaded 8 bags:
+
+Bag 1 contains 5 items (breakables, full):
+(1) light bulbs
+(1) napkins
+(1) pickle relish
+(2) tissues
+
+Bag 2 contains 6 items (breakables, perishables, full):
+(1) bacon
+(1) bread
+(1) eggs
+(1) hotdog buns
+(1) hotdogs
+(1) sliced cheese
+
+Bag 3 contains 3 items (heavy items):
+(3) beans
+
+Bag 4 contains 4 items (heavy items):
+(1) ketchup
+(1) mustard
+(1) pet food
+(1) salsa
+
+Bag 5 contains 4 items (breakables, full):
+(1) napkins
+(1) potato chips
+(1) sponges
+(1) tortilla chips
+
+Bag 6 contains 2 items (breakables, perishables):
+(2) hotdog buns
+
+Bag 7 contains 3 items (heavy items):
+(1) juice
+(2) soda
+
+Bag 8 contains 1 item (heavy items):
+(1) beer
+
+----------
+
+End of run with Resizable Array Bag implementation.
+
+-----
+
+
+Done.
