@@ -1,0 +1,775 @@
+Detailed log in: C:\Users\gjurajl\eclipse-workspace\DS - Lab 2 - Stack ADT + App - username (2021-3fa)\test-logs\InfixExpressionEvaluatorDMRTests-2021-10-26-121639.log
+
+Starting tests of class InfixExpressionEvaluator
+
+Using test data from: .\test-data-dmr\infix-expressions.dat
+
+[1] # valid, single-digit operand expressions
+[3, single-digit, 1] expression: '0'
+[3, single-digit, 1] expect: 0
+[3, single-digit, 1] actual: 0
+[3, single-digit, 1] correct
+
+[4, single-digit, 2] expression: '7'
+[4, single-digit, 2] expect: 7
+[4, single-digit, 2] actual: 7
+[4, single-digit, 2] correct
+
+[5, single-digit, 3] expression: '0+0'
+[5, single-digit, 3] expect: 0
+[5, single-digit, 3] actual: EmptyStackException
+[5, single-digit, 3] incorrect
+
+[6, single-digit, 4] expression: '0 + 0'
+[6, single-digit, 4] expect: 0
+[6, single-digit, 4] actual: EmptyStackException
+[6, single-digit, 4] incorrect
+
+[7, single-digit, 5] expression: '0 + 1'
+[7, single-digit, 5] expect: 1
+[7, single-digit, 5] actual: EmptyStackException
+[7, single-digit, 5] incorrect
+
+[8, single-digit, 6] expression: '4 + 7'
+[8, single-digit, 6] expect: 11
+[8, single-digit, 6] actual: EmptyStackException
+[8, single-digit, 6] incorrect
+
+[9, single-digit, 7] expression: '0 * 3'
+[9, single-digit, 7] expect: 0
+[9, single-digit, 7] actual: EmptyStackException
+[9, single-digit, 7] incorrect
+
+[10, single-digit, 8] expression: '1 * 3'
+[10, single-digit, 8] expect: 3
+[10, single-digit, 8] actual: EmptyStackException
+[10, single-digit, 8] incorrect
+
+[11, single-digit, 9] expression: '7 * 3'
+[11, single-digit, 9] expect: 21
+[11, single-digit, 9] actual: EmptyStackException
+[11, single-digit, 9] incorrect
+
+[12, single-digit, 10] expression: '0 - 4'
+[12, single-digit, 10] expect: -4
+[12, single-digit, 10] actual: EmptyStackException
+[12, single-digit, 10] incorrect
+
+[13, single-digit, 11] expression: '4 - 0'
+[13, single-digit, 11] expect: 4
+[13, single-digit, 11] actual: EmptyStackException
+[13, single-digit, 11] incorrect
+
+[14, single-digit, 12] expression: '4 - 4'
+[14, single-digit, 12] expect: 0
+[14, single-digit, 12] actual: EmptyStackException
+[14, single-digit, 12] incorrect
+
+[15, single-digit, 13] expression: '4 - 7'
+[15, single-digit, 13] expect: -3
+[15, single-digit, 13] actual: EmptyStackException
+[15, single-digit, 13] incorrect
+
+[16, single-digit, 14] expression: '0 / 5'
+[16, single-digit, 14] expect: 0
+[16, single-digit, 14] actual: EmptyStackException
+[16, single-digit, 14] incorrect
+
+[17, single-digit, 15] expression: '1 / 5'
+[17, single-digit, 15] expect: 0
+[17, single-digit, 15] actual: EmptyStackException
+[17, single-digit, 15] incorrect
+
+[18, single-digit, 16] expression: '5 / 1'
+[18, single-digit, 16] expect: 5
+[18, single-digit, 16] actual: EmptyStackException
+[18, single-digit, 16] incorrect
+
+[19, single-digit, 17] expression: '4 / 2'
+[19, single-digit, 17] expect: 2
+[19, single-digit, 17] actual: EmptyStackException
+[19, single-digit, 17] incorrect
+
+[20, single-digit, 18] expression: '7 / 7'
+[20, single-digit, 18] expect: 1
+[20, single-digit, 18] actual: EmptyStackException
+[20, single-digit, 18] incorrect
+
+[21, single-digit, 19] expression: '9 / 8'
+[21, single-digit, 19] expect: 1
+[21, single-digit, 19] actual: EmptyStackException
+[21, single-digit, 19] incorrect
+
+[22, single-digit, 20] expression: '9 / 4'
+[22, single-digit, 20] expect: 2
+[22, single-digit, 20] actual: EmptyStackException
+[22, single-digit, 20] incorrect
+
+[23] # % added 10/14/2021
+[24, single-digit, 21] expression: '0 % 5'
+[24, single-digit, 21] expect: 0
+[24, single-digit, 21] actual: EmptyStackException
+[24, single-digit, 21] incorrect
+
+[25, single-digit, 22] expression: '1 % 5'
+[25, single-digit, 22] expect: 1
+[25, single-digit, 22] actual: EmptyStackException
+[25, single-digit, 22] incorrect
+
+[26, single-digit, 23] expression: '5 % 1'
+[26, single-digit, 23] expect: 0
+[26, single-digit, 23] actual: EmptyStackException
+[26, single-digit, 23] incorrect
+
+[27, single-digit, 24] expression: '4 % 2'
+[27, single-digit, 24] expect: 0
+[27, single-digit, 24] actual: EmptyStackException
+[27, single-digit, 24] incorrect
+
+[28, single-digit, 25] expression: '7 % 7'
+[28, single-digit, 25] expect: 0
+[28, single-digit, 25] actual: EmptyStackException
+[28, single-digit, 25] incorrect
+
+[29, single-digit, 26] expression: '9 % 8'
+[29, single-digit, 26] expect: 1
+[29, single-digit, 26] actual: EmptyStackException
+[29, single-digit, 26] incorrect
+
+[30, single-digit, 27] expression: '9 % 5'
+[30, single-digit, 27] expect: 4
+[30, single-digit, 27] actual: EmptyStackException
+[30, single-digit, 27] incorrect
+
+[31, single-digit, 28] expression: '(3)'
+[31, single-digit, 28] expect: 3
+[31, single-digit, 28] actual: EmptyStackException
+[31, single-digit, 28] incorrect
+
+[32, single-digit, 29] expression: '( 3 )'
+[32, single-digit, 29] expect: 3
+[32, single-digit, 29] actual: EmptyStackException
+[32, single-digit, 29] incorrect
+
+[33, single-digit, 30] expression: '(((5)))'
+[33, single-digit, 30] expect: 5
+[33, single-digit, 30] actual: EmptyStackException
+[33, single-digit, 30] incorrect
+
+[34, single-digit, 31] expression: '( ( ( 5 ) ) )'
+[34, single-digit, 31] expect: 5
+[34, single-digit, 31] actual: EmptyStackException
+[34, single-digit, 31] incorrect
+
+[35, single-digit, 32] expression: '1 + 2 + 3 + 4'
+[35, single-digit, 32] expect: 10
+[35, single-digit, 32] actual: EmptyStackException
+[35, single-digit, 32] incorrect
+
+[36, single-digit, 33] expression: '1 + 2  +  3   +   4'
+[36, single-digit, 33] expect: 10
+[36, single-digit, 33] actual: EmptyStackException
+[36, single-digit, 33] incorrect
+
+[37, single-digit, 34] expression: '1+(2+3)'
+[37, single-digit, 34] expect: 6
+[37, single-digit, 34] actual: EmptyStackException
+[37, single-digit, 34] incorrect
+
+[38, single-digit, 35] expression: '1 + (2+3)'
+[38, single-digit, 35] expect: 6
+[38, single-digit, 35] actual: EmptyStackException
+[38, single-digit, 35] incorrect
+
+[39, single-digit, 36] expression: '1+(2 + 3)'
+[39, single-digit, 36] expect: 6
+[39, single-digit, 36] actual: EmptyStackException
+[39, single-digit, 36] incorrect
+
+[40, single-digit, 37] expression: '1 + ( 2 + 3 )'
+[40, single-digit, 37] expect: 6
+[40, single-digit, 37] actual: EmptyStackException
+[40, single-digit, 37] incorrect
+
+[41, single-digit, 38] expression: '1 + ( 2 + 3 ) + 4'
+[41, single-digit, 38] expect: 10
+[41, single-digit, 38] actual: EmptyStackException
+[41, single-digit, 38] incorrect
+
+[42, single-digit, 39] expression: '( 1 + 2 )'
+[42, single-digit, 39] expect: 3
+[42, single-digit, 39] actual: EmptyStackException
+[42, single-digit, 39] incorrect
+
+[43, single-digit, 40] expression: '( 1 + 2 ) + 3'
+[43, single-digit, 40] expect: 6
+[43, single-digit, 40] actual: EmptyStackException
+[43, single-digit, 40] incorrect
+
+[44, single-digit, 41] expression: '( 1 + 2 ) + ( 3 + 4 )'
+[44, single-digit, 41] expect: 10
+[44, single-digit, 41] actual: EmptyStackException
+[44, single-digit, 41] incorrect
+
+[45, single-digit, 42] expression: '1 * 2 * 3 * 4'
+[45, single-digit, 42] expect: 24
+[45, single-digit, 42] actual: EmptyStackException
+[45, single-digit, 42] incorrect
+
+[46, single-digit, 43] expression: '3 * ( 4 * 5 )'
+[46, single-digit, 43] expect: 60
+[46, single-digit, 43] actual: EmptyStackException
+[46, single-digit, 43] incorrect
+
+[47, single-digit, 44] expression: '3 * ( 4 * 5 ) * 6'
+[47, single-digit, 44] expect: 360
+[47, single-digit, 44] actual: EmptyStackException
+[47, single-digit, 44] incorrect
+
+[48, single-digit, 45] expression: '( 3 * 4 )'
+[48, single-digit, 45] expect: 12
+[48, single-digit, 45] actual: EmptyStackException
+[48, single-digit, 45] incorrect
+
+[49, single-digit, 46] expression: '( 3 * 4 ) * 5'
+[49, single-digit, 46] expect: 60
+[49, single-digit, 46] actual: EmptyStackException
+[49, single-digit, 46] incorrect
+
+[50, single-digit, 47] expression: '( 3 * 4 ) * ( 5 * 6 )'
+[50, single-digit, 47] expect: 360
+[50, single-digit, 47] actual: EmptyStackException
+[50, single-digit, 47] incorrect
+
+[51, single-digit, 48] expression: '1 - 2 - 3 - 4'
+[51, single-digit, 48] expect: -8
+[51, single-digit, 48] actual: EmptyStackException
+[51, single-digit, 48] incorrect
+
+[52, single-digit, 49] expression: '5 - ( 6 - 7 )'
+[52, single-digit, 49] expect: 6
+[52, single-digit, 49] actual: EmptyStackException
+[52, single-digit, 49] incorrect
+
+[53, single-digit, 50] expression: '5 - ( 6 - 7 ) - 8'
+[53, single-digit, 50] expect: -2
+[53, single-digit, 50] actual: EmptyStackException
+[53, single-digit, 50] incorrect
+
+[54, single-digit, 51] expression: '( 5 - 6 ) - ( 7 - 8 )'
+[54, single-digit, 51] expect: 0
+[54, single-digit, 51] actual: EmptyStackException
+[54, single-digit, 51] incorrect
+
+[55, single-digit, 52] expression: '1 / 2 / 3 / 4'
+[55, single-digit, 52] expect: 0
+[55, single-digit, 52] actual: EmptyStackException
+[55, single-digit, 52] incorrect
+
+[56, single-digit, 53] expression: '8 / 2 / 2'
+[56, single-digit, 53] expect: 2
+[56, single-digit, 53] actual: EmptyStackException
+[56, single-digit, 53] incorrect
+
+[57, single-digit, 54] expression: '8 / ( 2 / 2 )'
+[57, single-digit, 54] expect: 8
+[57, single-digit, 54] actual: EmptyStackException
+[57, single-digit, 54] incorrect
+
+[58, single-digit, 55] expression: '9 / ( 6 / 2 )'
+[58, single-digit, 55] expect: 3
+[58, single-digit, 55] actual: EmptyStackException
+[58, single-digit, 55] incorrect
+
+[59, single-digit, 56] expression: '9 / ( 6 / 2 ) / 3'
+[59, single-digit, 56] expect: 1
+[59, single-digit, 56] actual: EmptyStackException
+[59, single-digit, 56] incorrect
+
+[60, single-digit, 57] expression: '2 + 3 * 4 + 5'
+[60, single-digit, 57] expect: 19
+[60, single-digit, 57] actual: EmptyStackException
+[60, single-digit, 57] incorrect
+
+[61, single-digit, 58] expression: '2 + ( 3 * 4 ) + 5'
+[61, single-digit, 58] expect: 19
+[61, single-digit, 58] actual: EmptyStackException
+[61, single-digit, 58] incorrect
+
+[62, single-digit, 59] expression: '( 2 + 3 ) * ( 4 + 5 )'
+[62, single-digit, 59] expect: 45
+[62, single-digit, 59] actual: EmptyStackException
+[62, single-digit, 59] incorrect
+
+[63, single-digit, 60] expression: '2 * 3 + 4 * 5'
+[63, single-digit, 60] expect: 26
+[63, single-digit, 60] actual: EmptyStackException
+[63, single-digit, 60] incorrect
+
+[64, single-digit, 61] expression: '( 2 * 3 ) + ( 4 * 5 )'
+[64, single-digit, 61] expect: 26
+[64, single-digit, 61] actual: EmptyStackException
+[64, single-digit, 61] incorrect
+
+[65, single-digit, 62] expression: '2 * ( 3 + 4 ) * 5'
+[65, single-digit, 62] expect: 70
+[65, single-digit, 62] actual: EmptyStackException
+[65, single-digit, 62] incorrect
+
+[66, single-digit, 63] expression: '( 5 * 5 * 2 * 2 ) - ( 2 * 5 ) - ( 5 * 2 * ( 2 + 3 + 4 ) )'
+[66, single-digit, 63] expect: 0
+[66, single-digit, 63] actual: EmptyStackException
+[66, single-digit, 63] incorrect
+
+[67, single-digit, 64] expression: '( ( 5 * 5 * 2 * 2 ) - ( 2 * 5 ) - ( 5 * 2 * ( 2 + 3 + 4 ) ) )'
+[67, single-digit, 64] expect: 0
+[67, single-digit, 64] actual: EmptyStackException
+[67, single-digit, 64] incorrect
+
+[68, single-digit, 65] expression: '( 5 * 5 * 2 * 2 ) - ( ( 2 * 5 ) + ( 5 * 2 * ( 2 + 3 + 4 ) ) )'
+[68, single-digit, 65] expect: 0
+[68, single-digit, 65] actual: EmptyStackException
+[68, single-digit, 65] incorrect
+
+[69, single-digit, 66] expression: '( 5 * 5 * 2 * 2 ) - ( ( 2 * 5 ) - ( 5 * 2 * ( 2 + 3 + 4 ) ) )'
+[69, single-digit, 66] expect: 180
+[69, single-digit, 66] actual: EmptyStackException
+[69, single-digit, 66] incorrect
+
+[70, single-digit, 67] expression: '( 0 - 6 ) + ( 2 * 3 * 4 ) + ( 3 / 1 / ( 2 - 3 - 1 ) )'
+[70, single-digit, 67] expect: 17
+[70, single-digit, 67] actual: EmptyStackException
+[70, single-digit, 67] incorrect
+
+[71, single-digit, 68] expression: '0 - 6 + 2 * 3 * 4 + 3 / 1 / ( 2 - 3 - 1 )'
+[71, single-digit, 68] expect: 17
+[71, single-digit, 68] actual: EmptyStackException
+[71, single-digit, 68] incorrect
+
+[72, single-digit, 69] expression: '9 - 2 * 4 - 9 * 3'
+[72, single-digit, 69] expect: -26
+[72, single-digit, 69] actual: EmptyStackException
+[72, single-digit, 69] incorrect
+
+[73, single-digit, 70] expression: '4   /   1'
+[73, single-digit, 70] expect: 4
+[73, single-digit, 70] actual: EmptyStackException
+[73, single-digit, 70] incorrect
+
+[74, single-digit, 71] expression: '4  /     4'
+[74, single-digit, 71] expect: 1
+[74, single-digit, 71] actual: EmptyStackException
+[74, single-digit, 71] incorrect
+
+[75, single-digit, 72] expression: '1+2 * 3 -	 	2 % (3+8) / 2+(5*2)'
+[75, single-digit, 72] expect: 16
+[75, single-digit, 72] actual: EmptyStackException
+[75, single-digit, 72] incorrect
+
+[78] # invalid, single-digit operand expressions
+[80, single-digit, 73] expression: 'x'
+[80, single-digit, 73] expect: 'unrecognized character: 'x''
+[80, single-digit, 73] actual: EmptyStackException
+[80, single-digit, 73] incorrect
+
+[81, single-digit, 74] expression: '^'
+[81, single-digit, 74] expect: 'unrecognized character: '^''
+[81, single-digit, 74] actual: EmptyStackException
+[81, single-digit, 74] incorrect
+
+[82, single-digit, 75] expression: '3 ^ 2'
+[82, single-digit, 75] expect: 'unrecognized character: '^''
+[82, single-digit, 75] actual: EmptyStackException
+[82, single-digit, 75] incorrect
+
+[83, single-digit, 76] expression: '3 + 3 < 2'
+[83, single-digit, 76] expect: 'unrecognized character: '<''
+[83, single-digit, 76] actual: EmptyStackException
+[83, single-digit, 76] incorrect
+
+[84, single-digit, 77] expression: '3 > 2 + 2'
+[84, single-digit, 77] expect: 'unrecognized character: '>''
+[84, single-digit, 77] actual: EmptyStackException
+[84, single-digit, 77] incorrect
+
+[85, single-digit, 78] expression: '3 & 2'
+[85, single-digit, 78] expect: 'unrecognized character: '&''
+[85, single-digit, 78] actual: EmptyStackException
+[85, single-digit, 78] incorrect
+
+[86, single-digit, 79] expression: '3 | 2'
+[86, single-digit, 79] expect: 'unrecognized character: '|''
+[86, single-digit, 79] actual: EmptyStackException
+[86, single-digit, 79] incorrect
+
+[87, single-digit, 80] expression: '3!'
+[87, single-digit, 80] expect: 'unrecognized character: '!''
+[87, single-digit, 80] actual: EmptyStackException
+[87, single-digit, 80] incorrect
+
+[88, single-digit, 81] expression: '1 + 2 ^ 3'
+[88, single-digit, 81] expect: 'unrecognized character: '^''
+[88, single-digit, 81] actual: EmptyStackException
+[88, single-digit, 81] incorrect
+
+[89, single-digit, 82] expression: '1 + 8~{D}'
+[89, single-digit, 82] expect: 'unrecognized character: '~''
+[89, single-digit, 82] actual: EmptyStackException
+[89, single-digit, 82] incorrect
+
+[92] # valid, multi-digit operand expressions
+[94, multi-digit, 1] expression: '0 + 12345'
+[94, multi-digit, 1] expect: 12,345
+[94, multi-digit, 1] actual: EmptyStackException
+[94, multi-digit, 1] incorrect
+
+[95, multi-digit, 2] expression: '12345+0'
+[95, multi-digit, 2] expect: 12,345
+[95, multi-digit, 2] actual: EmptyStackException
+[95, multi-digit, 2] incorrect
+
+[96, multi-digit, 3] expression: '12345	+ 54321'
+[96, multi-digit, 3] expect: 66,666
+[96, multi-digit, 3] actual: EmptyStackException
+[96, multi-digit, 3] incorrect
+
+[97, multi-digit, 4] expression: '54321 	 + 12345'
+[97, multi-digit, 4] expect: 66,666
+[97, multi-digit, 4] actual: EmptyStackException
+[97, multi-digit, 4] incorrect
+
+[98, multi-digit, 5] expression: '0 - 12345'
+[98, multi-digit, 5] expect: -12,345
+[98, multi-digit, 5] actual: EmptyStackException
+[98, multi-digit, 5] incorrect
+
+[99, multi-digit, 6] expression: '12345 - 0'
+[99, multi-digit, 6] expect: 12,345
+[99, multi-digit, 6] actual: EmptyStackException
+[99, multi-digit, 6] incorrect
+
+[100, multi-digit, 7] expression: '12345 - 54321'
+[100, multi-digit, 7] expect: -41,976
+[100, multi-digit, 7] actual: EmptyStackException
+[100, multi-digit, 7] incorrect
+
+[101, multi-digit, 8] expression: '54321 - 12345'
+[101, multi-digit, 8] expect: 41,976
+[101, multi-digit, 8] actual: EmptyStackException
+[101, multi-digit, 8] incorrect
+
+[102, multi-digit, 9] expression: '0 * 12345'
+[102, multi-digit, 9] expect: 0
+[102, multi-digit, 9] actual: EmptyStackException
+[102, multi-digit, 9] incorrect
+
+[103, multi-digit, 10] expression: '12345 * 0'
+[103, multi-digit, 10] expect: 0
+[103, multi-digit, 10] actual: EmptyStackException
+[103, multi-digit, 10] incorrect
+
+[104, multi-digit, 11] expression: '12345 * 54321'
+[104, multi-digit, 11] expect: 670,592,745
+[104, multi-digit, 11] actual: EmptyStackException
+[104, multi-digit, 11] incorrect
+
+[105, multi-digit, 12] expression: '54321 * 12345'
+[105, multi-digit, 12] expect: 670,592,745
+[105, multi-digit, 12] actual: EmptyStackException
+[105, multi-digit, 12] incorrect
+
+[106, multi-digit, 13] expression: '0 / 12345'
+[106, multi-digit, 13] expect: 0
+[106, multi-digit, 13] actual: EmptyStackException
+[106, multi-digit, 13] incorrect
+
+[107, multi-digit, 14] expression: '12345 / 1'
+[107, multi-digit, 14] expect: 12,345
+[107, multi-digit, 14] actual: EmptyStackException
+[107, multi-digit, 14] incorrect
+
+[108, multi-digit, 15] expression: '12345 / 5'
+[108, multi-digit, 15] expect: 2,469
+[108, multi-digit, 15] actual: EmptyStackException
+[108, multi-digit, 15] incorrect
+
+[109, multi-digit, 16] expression: '12345 / 54321'
+[109, multi-digit, 16] expect: 0
+[109, multi-digit, 16] actual: EmptyStackException
+[109, multi-digit, 16] incorrect
+
+[110, multi-digit, 17] expression: '54321 / 12345'
+[110, multi-digit, 17] expect: 4
+[110, multi-digit, 17] actual: EmptyStackException
+[110, multi-digit, 17] incorrect
+
+[111, multi-digit, 18] expression: '100 - 1 * 10 - 9 * 10'
+[111, multi-digit, 18] expect: 0
+[111, multi-digit, 18] actual: EmptyStackException
+[111, multi-digit, 18] incorrect
+
+[112, multi-digit, 19] expression: '100 - ( 1 * 10 ) - ( 9 * 10 )'
+[112, multi-digit, 19] expect: 0
+[112, multi-digit, 19] actual: EmptyStackException
+[112, multi-digit, 19] incorrect
+
+[113, multi-digit, 20] expression: '100 * ( 9 / 5 ) + 32'
+[113, multi-digit, 20] expect: 132
+[113, multi-digit, 20] actual: EmptyStackException
+[113, multi-digit, 20] incorrect
+
+[114, multi-digit, 21] expression: '100 *9 / 5 + 32'
+[114, multi-digit, 21] expect: 212
+[114, multi-digit, 21] actual: EmptyStackException
+[114, multi-digit, 21] incorrect
+
+[115, multi-digit, 22] expression: '0 * ( 9 / 5 ) + 32'
+[115, multi-digit, 22] expect: 32
+[115, multi-digit, 22] actual: EmptyStackException
+[115, multi-digit, 22] incorrect
+
+[116, multi-digit, 23] expression: '0 * 9 / 5 + 32'
+[116, multi-digit, 23] expect: 32
+[116, multi-digit, 23] actual: EmptyStackException
+[116, multi-digit, 23] incorrect
+
+[117, multi-digit, 24] expression: '( 32 - 32 ) * ( 5 / 9 )'
+[117, multi-digit, 24] expect: 0
+[117, multi-digit, 24] actual: EmptyStackException
+[117, multi-digit, 24] incorrect
+
+[118, multi-digit, 25] expression: '( 212 - 32 ) * ( 5 / 9 )'
+[118, multi-digit, 25] expect: 0
+[118, multi-digit, 25] actual: EmptyStackException
+[118, multi-digit, 25] incorrect
+
+[119, multi-digit, 26] expression: '( 212 - 32 ) * 5 / 9'
+[119, multi-digit, 26] expect: 100
+[119, multi-digit, 26] actual: EmptyStackException
+[119, multi-digit, 26] incorrect
+
+[120, multi-digit, 27] expression: '2000000000 + 2000000000'
+[120, multi-digit, 27] expect: 4,000,000,000
+[120, multi-digit, 27] actual: EmptyStackException
+[120, multi-digit, 27] incorrect
+
+[121, multi-digit, 28] expression: '4000000000 + 4000000000'
+[121, multi-digit, 28] expect: 8,000,000,000
+[121, multi-digit, 28] actual: EmptyStackException
+[121, multi-digit, 28] incorrect
+
+[122, multi-digit, 29] expression: '1234567890123456789 + 1234567890123456789'
+[122, multi-digit, 29] expect: 2,469,135,780,246,913,578
+[122, multi-digit, 29] actual: EmptyStackException
+[122, multi-digit, 29] incorrect
+
+[123, multi-digit, 30] expression: '12345% 25'
+[123, multi-digit, 30] expect: 20
+[123, multi-digit, 30] actual: EmptyStackException
+[123, multi-digit, 30] incorrect
+
+[126] # invalid expressions
+[128, invalid, 1] expression: ''
+[128, invalid, 1] expect: 'null expression'
+[128, invalid, 1] actual: EmptyStackException
+[128, invalid, 1] incorrect
+
+[129, invalid, 2] expression: '(3'
+[129, invalid, 2] expect: 'invalid expression'
+[129, invalid, 2] actual: EmptyStackException
+[129, invalid, 2] incorrect
+
+[130, invalid, 3] expression: '( 3'
+[130, invalid, 3] expect: 'invalid expression'
+[130, invalid, 3] actual: EmptyStackException
+[130, invalid, 3] incorrect
+
+[131, invalid, 4] expression: '('
+[131, invalid, 4] expect: 'invalid expression'
+[131, invalid, 4] actual: EmptyStackException
+[131, invalid, 4] incorrect
+
+[132, invalid, 5] expression: ')'
+[132, invalid, 5] expect: 'invalid expression'
+[132, invalid, 5] actual: EmptyStackException
+[132, invalid, 5] incorrect
+
+[133, invalid, 6] expression: '(( 1 + 2 )'
+[133, invalid, 6] expect: 'invalid expression'
+[133, invalid, 6] actual: EmptyStackException
+[133, invalid, 6] incorrect
+
+[134, invalid, 7] expression: '( ( 1 + 2 )'
+[134, invalid, 7] expect: 'invalid expression'
+[134, invalid, 7] actual: EmptyStackException
+[134, invalid, 7] incorrect
+
+[135, invalid, 8] expression: '(1+2))'
+[135, invalid, 8] expect: 'invalid expression'
+[135, invalid, 8] actual: EmptyStackException
+[135, invalid, 8] incorrect
+
+[136, invalid, 9] expression: '( 1 + 2 ) )'
+[136, invalid, 9] expect: 'invalid expression'
+[136, invalid, 9] actual: EmptyStackException
+[136, invalid, 9] incorrect
+
+[137, invalid, 10] expression: '3 + ( 2 + 1'
+[137, invalid, 10] expect: 'invalid expression'
+[137, invalid, 10] actual: EmptyStackException
+[137, invalid, 10] incorrect
+
+[138, invalid, 11] expression: '3 + 2 ) + 1'
+[138, invalid, 11] expect: 'invalid expression'
+[138, invalid, 11] actual: EmptyStackException
+[138, invalid, 11] incorrect
+
+[139, invalid, 12] expression: '3+-2'
+[139, invalid, 12] expect: 'invalid expression'
+[139, invalid, 12] actual: EmptyStackException
+[139, invalid, 12] incorrect
+
+[140, invalid, 13] expression: '3 + -2'
+[140, invalid, 13] expect: 'invalid expression'
+[140, invalid, 13] actual: EmptyStackException
+[140, invalid, 13] incorrect
+
+[141, invalid, 14] expression: '3 + - 2'
+[141, invalid, 14] expect: 'invalid expression'
+[141, invalid, 14] actual: EmptyStackException
+[141, invalid, 14] incorrect
+
+[142, invalid, 15] expression: '+'
+[142, invalid, 15] expect: 'invalid expression'
+[142, invalid, 15] actual: EmptyStackException
+[142, invalid, 15] incorrect
+
+[143, invalid, 16] expression: '3 +'
+[143, invalid, 16] expect: 'invalid expression'
+[143, invalid, 16] actual: EmptyStackException
+[143, invalid, 16] incorrect
+
+[144, invalid, 17] expression: '+ 3'
+[144, invalid, 17] expect: 'invalid expression'
+[144, invalid, 17] actual: EmptyStackException
+[144, invalid, 17] incorrect
+
+[145, invalid, 18] expression: '-'
+[145, invalid, 18] expect: 'invalid expression'
+[145, invalid, 18] actual: EmptyStackException
+[145, invalid, 18] incorrect
+
+[146, invalid, 19] expression: '*'
+[146, invalid, 19] expect: 'invalid expression'
+[146, invalid, 19] actual: EmptyStackException
+[146, invalid, 19] incorrect
+
+[147, invalid, 20] expression: '/'
+[147, invalid, 20] expect: 'invalid expression'
+[147, invalid, 20] actual: EmptyStackException
+[147, invalid, 20] incorrect
+
+[148, invalid, 21] expression: '0 / 0'
+[148, invalid, 21] expect: 'division by zero'
+[148, invalid, 21] actual: EmptyStackException
+[148, invalid, 21] incorrect
+
+[149, invalid, 22] expression: '3 / 0'
+[149, invalid, 22] expect: 'division by zero'
+[149, invalid, 22] actual: EmptyStackException
+[149, invalid, 22] incorrect
+
+[150, invalid, 23] expression: '5 / ( 7 - 4 - 3 )'
+[150, invalid, 23] expect: 'division by zero'
+[150, invalid, 23] actual: EmptyStackException
+[150, invalid, 23] incorrect
+
+[151, invalid, 24] expression: '3 ( 1 + 2 )'
+[151, invalid, 24] expect: 'invalid expression'
+[151, invalid, 24] actual: EmptyStackException
+[151, invalid, 24] incorrect
+
+[152, invalid, 25] expression: '3 ( 4 )'
+[152, invalid, 25] expect: 'invalid expression'
+[152, invalid, 25] actual: EmptyStackException
+[152, invalid, 25] incorrect
+
+[153, invalid, 26] expression: '( 3 ) 4'
+[153, invalid, 26] expect: 'invalid expression'
+[153, invalid, 26] actual: EmptyStackException
+[153, invalid, 26] incorrect
+
+[154, invalid, 27] expression: '3 ( 4 + 2 )'
+[154, invalid, 27] expect: 'invalid expression'
+[154, invalid, 27] actual: EmptyStackException
+[154, invalid, 27] incorrect
+
+[155, invalid, 28] expression: '( 3 + 4 ) 2'
+[155, invalid, 28] expect: 'invalid expression'
+[155, invalid, 28] actual: EmptyStackException
+[155, invalid, 28] incorrect
+
+[156, invalid, 29] expression: '( 1 + )'
+[156, invalid, 29] expect: 'invalid expression'
+[156, invalid, 29] actual: EmptyStackException
+[156, invalid, 29] incorrect
+
+[157, invalid, 30] expression: '1 + ( 2 + )'
+[157, invalid, 30] expect: 'invalid expression'
+[157, invalid, 30] actual: EmptyStackException
+[157, invalid, 30] incorrect
+
+[159, invalid, 31] expression: '( 1 + 2 ) ( 3 + 4 )'
+[159, invalid, 31] expect: 'invalid expression'
+[159, invalid, 31] actual: EmptyStackException
+[159, invalid, 31] incorrect
+
+[161, invalid, 32] expression: '(3)(4)'
+[161, invalid, 32] expect: 'invalid expression'
+[161, invalid, 32] actual: EmptyStackException
+[161, invalid, 32] incorrect
+
+[162, invalid, 33] expression: '(3) (4)'
+[162, invalid, 33] expect: 'invalid expression'
+[162, invalid, 33] actual: EmptyStackException
+[162, invalid, 33] incorrect
+
+[163, invalid, 34] expression: '( 3 ) ( 4 )'
+[163, invalid, 34] expect: 'invalid expression'
+[163, invalid, 34] actual: EmptyStackException
+[163, invalid, 34] incorrect
+
+[164, invalid, 35] expression: '( 1 + 2 ) + ( 3 + )'
+[164, invalid, 35] expect: 'invalid expression'
+[164, invalid, 35] actual: EmptyStackException
+[164, invalid, 35] incorrect
+
+[165, invalid, 36] expression: '( 1 + 2 ) + ( 3 + 4 + )'
+[165, invalid, 36] expect: 'invalid expression'
+[165, invalid, 36] actual: EmptyStackException
+[165, invalid, 36] incorrect
+
+[166, invalid, 37] expression: '( 1 + 2 + ( 3 + 4 + ) )'
+[166, invalid, 37] expect: 'invalid expression'
+[166, invalid, 37] actual: EmptyStackException
+[166, invalid, 37] incorrect
+
+[167, invalid, 38] expression: '( 1 + 2 + )'
+[167, invalid, 38] expect: 'invalid expression'
+[167, invalid, 38] actual: EmptyStackException
+[167, invalid, 38] incorrect
+
+[168, invalid, 39] expression: '( ( 1 ) + ( 2 ) + )'
+[168, invalid, 39] expect: 'invalid expression'
+[168, invalid, 39] actual: EmptyStackException
+[168, invalid, 39] incorrect
+
+[169, invalid, 40] expression: '+ ( 1 ) + ( 2 )'
+[169, invalid, 40] expect: 'invalid expression'
+[169, invalid, 40] actual: EmptyStackException
+[169, invalid, 40] incorrect
+
+-----
+2 of 82 single-digit expressions (  2%) evaluated correctly
+0 of 30 multi-digit expressions (  0%) evaluated correctly
+0 of 40 invalid expressions (  0%) evaluated correctly
